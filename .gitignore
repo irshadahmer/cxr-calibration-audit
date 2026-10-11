@@ -1,9 +1,19 @@
-﻿venv/
+﻿# Python / Virtual Environment
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Data archives & model weights
 data/
-*.pth
+*.tar.gz
+*.zip
 *.pt
-.vscode/
-.idea/
-results/*.csv
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+make_script.py
